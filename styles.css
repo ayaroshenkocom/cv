@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+.info {
+  margin-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: grey;
+}
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info p {
+  color: #89898f;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+}
+.card {
+  padding: 15px 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+}
+
+.table {
+  padding: 20px;
+  width: 100%;
+  background-color: rgb(227, 227, 227);
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table th {
+  text-align: left;
+  font-size: 18px;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.info {
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+.info-texth4 {
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row > .form-group {
+  width: 50%;
+}
+.row > .form-group:first-child {
+  margin-right: 20px;
+}
+/* .social {
+  border: 1px solid rgb(222, 222, 222);
+  padding: 5px 0 10px 10px;
+  margin: 20px;
+} */
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.btn {
+  color: #000;
+  padding: 15px 20px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* POSTION */
+.position {
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+}
+
+/* .box-model > div {
+  background: #000;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  float: left;
+  box-sizing: border-box;
+} */
